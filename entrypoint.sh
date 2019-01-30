@@ -1,3 +1,3 @@
-#!/bin/bash
+#!/bin/sh
 
-/usr/sbin/squid -Nd 0
+$(which squid) -Nd 0
